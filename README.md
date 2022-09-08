@@ -1,1 +1,1 @@
-C introduction -first task
+C introduction
