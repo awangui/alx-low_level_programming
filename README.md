@@ -1,2 +1,1 @@
-# alx-low_level_programming
-c introduction
+C introduction -first task
