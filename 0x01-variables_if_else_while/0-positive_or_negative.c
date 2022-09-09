@@ -37,7 +37,8 @@ int main(void)
 			printf("is zero\n");
 		}
 		else
-			printf("%d", n "is negative\n");
+			printf("%d", n );
+			printf("is negative\n");
 
 					return (0);
 
