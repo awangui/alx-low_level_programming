@@ -18,7 +18,7 @@ int main(void)
 
 {
 
-		int n, int a;
+		int n, a;
 
 
 
