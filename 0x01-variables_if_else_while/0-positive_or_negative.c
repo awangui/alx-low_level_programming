@@ -7,7 +7,6 @@
 
 /*
  * main - contains function
- * value - checks value of number
  * @n - number to be checked
  *
  * Description: checks positive or negative
@@ -27,19 +26,18 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					/* your code goes there */
-int value(n)
-{
 		if (n > 0)
 		{
-			printf("%d", n "is postive\n")
+			printf("%d", n "is postive\n");
 		}
 		else if (n == 0)
 		{
-			printf("%d", n "is zero\n")
+			printf("%d", n);
+			       printf("is zero\n");
 		}
 		else
-			printf("%d", n "is negative\n")
+			printf("%d", n "is negative\n");
 
 					return (0);
-}
+
 }
