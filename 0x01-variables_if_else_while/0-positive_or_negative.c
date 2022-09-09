@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - contains function
- * Description: checks positive or negative
+/**
+ * main - main block
+ * Description: a random number is assigned to the variable n
+ * then the function checks if it's positive negative or equal to zero
  * Return : 0 if sucessful
 */
 int main(void)
@@ -25,7 +26,7 @@ int main(void)
 			printf("%d is zero\n", n);
 		}
 		else
-			printf("%d is negative\n", n );	
+			printf("%d is negative\n", n);
 		return (0);
 
 }
