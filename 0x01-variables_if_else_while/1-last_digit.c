@@ -9,7 +9,9 @@
 /* betty style doc for function main goes there */
 /**
  * main - main block
+ *
  * Description : assigning a variable
+ *
  * Return : 0 always successful
 */
 int main(void)
@@ -25,12 +27,14 @@ int main(void)
 				n = rand() - RAND_MAX / 2;
 
 					/* your code goes there */
-		int a = n[-1];
-		if (a > 5)
+		int a = n % 10;
 
-			printf("Last digit of %s is %d and is greater than 5", n, a);
-		if (a == 0)
-			printf("Last digit of %s is %d and is 0", n, a);
-					return (0);
+		if (a > 5)
+			printf("Last digit of %d is %d and is greater than 5\n", n, a);
+		else if (a == 0)
+			printf("Last digit of %d is %d and is 0\n", n, a);
+		else if (a < 6 && a != 0)
+			printf("Last digit of %d is %d and is less than 6 and not 0\n");
+		return (0);
 
 }
