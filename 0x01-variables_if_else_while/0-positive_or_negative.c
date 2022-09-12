@@ -4,10 +4,7 @@
 /**
  * main - main block
  *
- * Description : a random number is assigned to the variable n
- * then the function checks if it's positive negative or equal to zero
- *
- * Return :always 0
+ * Return : always 0
  */
 int main(void)
 {
