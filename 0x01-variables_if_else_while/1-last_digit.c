@@ -10,9 +10,7 @@
 /**
  * main - main block
  *
- * Description : assigning a variable
- *
- * Return : 0 always successful
+ * Return: 0 always successful
 */
 int main(void)
 
