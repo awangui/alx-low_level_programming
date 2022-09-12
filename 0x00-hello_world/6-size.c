@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-printf("Size of a char: %zu byte(s)\n", sizeof(charType));
-printf("Size of an int: %zu byte(s)\n", sizeof(intType));
-printf("Size of a long int: %zu byte(s)\n", sizeof(longintType));
-printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
+printf("Size of a char: %d byte(s)\n", (int) sizeof(charType));
+printf("Size of an int: %d byte(s)\n", (int) sizeof(intType));
+printf("Size of a long int: %d byte(s)\n", (int) sizeof(longintType));
+printf("Size of a float: %d byte(s)\n", (int) sizeof(floatType));
 return (0);
 }
