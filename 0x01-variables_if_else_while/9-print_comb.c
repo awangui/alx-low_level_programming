@@ -1,19 +1,20 @@
 #include <stdio.h>
-#include <string.h>
-#define N 10
 /**
  * main - main block
  *
  * Return: 0 always
  **/
-int main()
+int main(void)
 {
-	int num[N];
-	int *ptr;
-	int temp;
-	int i, n, j;
-	printf("\n Now many number you want to enter:");
-		scanf("%d", &n);
-	printf("\n Enter a list of numbers to see all combinations:\n");
-	for (i = 0; i < n; i++)
-		scanf(
+	int num;
+
+	for (num = 0; num <= 9; num++)
+	{
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
+		putchar(',');
+		putchar('');
+	}
+	return (0);
+}
