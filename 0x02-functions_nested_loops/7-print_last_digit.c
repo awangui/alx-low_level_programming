@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - a function that prints the last digit of a number
- * @n - number
+ * @n: number
  *
  * Return: mod (last digit)
  */
@@ -15,5 +15,7 @@ int print_last_digit(int n)
 		mod = mod * -1;
 	}
 	mod = (mod + '0');
+	_putchar('mod);
+	_putchar('\n');
 	return (mod);
 }
