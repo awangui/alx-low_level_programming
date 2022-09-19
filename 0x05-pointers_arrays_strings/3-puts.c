@@ -7,6 +7,6 @@
  */
 void _puts(char *str)
 {
-	puts(*str, stdout);
-	puts("\n", stdout);
+	puts(*str);
+	puts("\n");
 }
