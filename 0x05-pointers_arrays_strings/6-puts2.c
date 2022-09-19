@@ -6,7 +6,8 @@
  * @str: string
  */
 
-void puts2(char *str){
+void puts2(char *str)
+{
 	int n = 0;
 
  	while (*(str + n))
