@@ -1,19 +1,23 @@
 #include <stdio.h>
 #include "main.h"
-/** 
- * puts2 - prints characters of a string starting with
- * the first character
+/**
+ * puts2 - Prints chars
  * @str: string
+ *
+ * Return: void
  */
-
 void puts2(char *str)
 {
-	int n = 0;
+	int len, i;
 
- 	while (*(str + n))
+	len = 0;
+	while (str[len] != '\0')
 	{
-		putchar(*(str + n));
-		n = n + 2;
+		len++;
 	}
- 	putchar('\n');
-}
+	for (i = 0; i < len; i += 2)
+	{
+		_putchar(str[i]);
+	}
+
+	_putchar('\n');
