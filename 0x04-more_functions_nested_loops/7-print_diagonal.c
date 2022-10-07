@@ -19,7 +19,7 @@ void print_diagonal(int size)
 			for (j = 0; j < size; j++)
 			{
 				if (j == i)
-					_putchar('#');
+					_putchar('\\');
 				else if (j < i)
 					_putchar(' ');
 			}
